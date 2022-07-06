@@ -1,0 +1,39 @@
+
+.nav {
+  background-color: #F55A5A;
+  align-items: center;
+  height: 150px;
+  display: flex;
+  vertical-align: middle;
+
+  
+}
+.nav--content {
+    align-content: center;
+    
+    flex-direction: nowrap;
+  
+}
+.nav-img {
+  width: 50px;
+}
+.bodi {
+  display: flex;
+  padding: 50px 100px;
+  gap: 50px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.body--img {
+
+}
+
+.loc {
+  width: 20px;
+  height: 20px;
+  padding: 15px 20px;
+  
+}
