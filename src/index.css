@@ -10,30 +10,38 @@
 }
 .nav--content {
     align-content: center;
-    
-    flex-direction: nowrap;
+    gap: 10px;
   
 }
 .nav-img {
   width: 50px;
+  padding: 0px 70px;
+}
+.nav--text {
+   padding: 0px 0px;
+
+   font-size: 42.9px;
+
 }
 .bodi {
   display: flex;
   padding: 50px 100px;
   gap: 50px;
+  font-size: 25px;
 }
 .icon {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
 }
-.body--img {
+.map {
+  padding: 24px 20px;
 
 }
 
 .loc {
   width: 20px;
   height: 20px;
-  padding: 15px 20px;
+  padding: 28px 0;
   
 }

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Body (props) {
     return (
         <div className="bodi">
@@ -8,6 +9,7 @@ export default function Body (props) {
                 <div className="icon"> 
             <img src="../images/locon.png" alt =" " className="loc"/>
                <p>{props.item.location}</p> 
+               <a href = {props.item.googleMapsUrl}  className="map"> View on google map </a>
                </div>
                <h2> {props.item.title} </h2>
                <h4>{props.item.startDate} - {props.item.endDate}</h4>
